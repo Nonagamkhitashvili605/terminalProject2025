@@ -90,14 +90,6 @@
 // let result2 = text.slice(1, 3);
 // console.log(result2);
 
-// let text = "georgia";
-// let result2 = text.toLocaleUpperCase();
-// console.log(result2);
-
-// let text = "TECHNOLOGY";
-// let result2 = text.toLocaleLowerCase();
-// console.log(result2);
-
 // let text = "TECHNOLOGY";
 // let result2 = text.toLowerCase();
 // console.log(result2);
@@ -118,11 +110,74 @@
 // let result2 = text.substring(2, 4);
 // console.log(result2);
 
-let data = {
-  userName: "nona",
-  age: 4,
-  is_student: false,
-  city: ["tbilisi", "batumi"],
-  subjects: {},
-};
-console.log(data["age"]);
+//
+
+// let products = {
+//   userName: "nona",
+//   age: 4,
+//   is_student: false,
+//   city: ["tbilisi", "batumi"],
+//   subjects: {},
+// };
+// console.log(data["age"]);
+
+// დავალება 1: სტრიქონის სიგრძე
+// შეამოწმეთ მოცემული სტრიქონის სიგრძე და დააბეჭდეთ, რამდენი სიმბოლოა მასში.
+
+// let words = ["one", "two", "three"];
+// console.log(words.length);
+// let result2 = words.length;
+// console.log(result2);
+
+// დავალება 2: სტრიქონის ყველა ასო დიდი
+// შეიტანეთ სტრიქონი და გამოიტანეთ ის მხოლოდ დიდი ასოებით.
+
+// let text = "hypertext markup language";
+// let result2 = text.toLocaleUpperCase();
+// console.log(result2);
+
+// დავალება 3: სტრიქონის ყველა ასო პატარა
+// შეიტანეთ სტრიქონი და გამოიტანეთ ის მხოლოდ პატარა ასოებით.
+// let text = "TECHNOLOGY";
+// let result2 = text.toLocaleLowerCase();
+// console.log(result2);
+
+// დავალება 4: სტრიქონის კონკრეტული სიმბოლო
+// შეიტანეთ სტრიქონი და შეამოწმეთ, რა სიმბოლოა კონკრეტულ ინდექსზე.
+
+// let text = "georgia";
+// let result2 = Text.at(-3);
+// console.log(result2);
+
+// დავალება 5: სტრიქონის ნაწილი
+// შეიტანეთ სტრიქონი და ამოჭერით მხოლოდ ნაწილობრივი სტრიქონი (ინდექსებით განსაზღვრული).
+
+// let text = "georgia";
+// let result2 = text.slice(1, 3);
+// console.log(result2);
+
+// დავალება 6: სტრიქონის ცვლილება
+// შეიტანეთ სტრიქონი და შეცვალეთ სიტყვა "hello" სიტყვით "hi".
+// let text = "hello";
+// let result2 = text.replaceAll("hello", "hi");
+// console.log(result2);
+
+// დავალება 7: სტრიქონის განაწილება
+// შეიტანეთ სტრიქონი, რომელშიც სიტყვები გამოყოფილია მძიმეთი, და გაყავით სტრიქონი შესაბამის ნაწილებად (მიუთითეთ split() მეთოდზე).
+let text = "georgia";
+let result2 = split("");
+console.log(result2);
+// დავალება 8: სტრიქონის დასაწყისი
+// შეამოწმეთ, იწყება თუ არა სტრიქონი სიტყვით "Java".
+
+// დავალება 9: სტრიქონის ბოლოს
+// შეამოწმეთ, მთავრდება თუ არა სტრიქონი სიტყვით "Script".
+
+// დავალება 10: სტრიქონის გამეორება
+// შეიტანეთ სტრიქონი და გამეორეთ ის 4-ჯერ.
+
+// დავალება 11: სტრიქონის ცარიელი სივრცეების მოცილება
+// შეიტანეთ სტრიქონი, რომელშიც იქნება ცარიელი ადგილები დასაწყისსა და ბოლოში. წაშალეთ ეს ცარიელი ადგილები.
+
+// დავალება 12: სტრიქონის გამოყოფა
+// შეიტანეთ სტრიქონი და შეამოწმეთ, თუ შეიცავს თუ არა ის სიტყვას "JavaScript".
