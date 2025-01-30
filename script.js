@@ -59,7 +59,70 @@
 // let books = ["Math", "Science", "History"];
 // // გაარკვიეთ მასივის სიგრძე.
 
-let books = ["Math", "Science", "History"];
-// console.log(books.length);
-let result2 = books.length;
-console.log(result2);
+// let books = ["Math", "Science", "History"];
+// // console.log(books.length);
+// let result2 = books.length;
+// console.log(result2);
+
+//29 january
+// ჩანესტილი მასივი
+// let array = [1, 2, 3, 4, [22, 33, [66, 67], 44]];
+// console.log(array[4][2][1]);
+
+//სტრინგის მეთოდები
+// let text = "georgia";
+// let result2 = Text.at(-3);
+// console.log(result2);
+
+// let text = "georgia";
+// let result2 = text.charAt(5);
+// console.log(result2);
+
+// let text = "georgia";
+// let result2 = text.repeat(5);
+// console.log(result2);
+
+// let text = "georgia";
+// let result2 = text.replace("g", "l");
+// console.log(result2);
+
+// let text = "georgia";
+// let result2 = text.slice(1, 3);
+// console.log(result2);
+
+// let text = "georgia";
+// let result2 = text.toLocaleUpperCase();
+// console.log(result2);
+
+// let text = "TECHNOLOGY";
+// let result2 = text.toLocaleLowerCase();
+// console.log(result2);
+
+// let text = "TECHNOLOGY";
+// let result2 = text.toLowerCase();
+// console.log(result2);
+
+// let text = "     ECHNOLOGY      ";
+// let result2 = text.trim();
+// console.log(result2);
+
+// let text = "     TECHNOLOGY      ";
+// let result2 = text.trimStart();
+// console.log(result2);
+
+// let text = "     TECHNOLOGY      ";
+// let result2 = text.trimEnd();
+// console.log(result2);
+
+// let text = "TECHNOLOGY";
+// let result2 = text.substring(2, 4);
+// console.log(result2);
+
+let data = {
+  userName: "nona",
+  age: 4,
+  is_student: false,
+  city: ["tbilisi", "batumi"],
+  subjects: {},
+};
+console.log(data["age"]);
