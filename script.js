@@ -164,20 +164,39 @@
 
 // დავალება 7: სტრიქონის განაწილება
 // შეიტანეთ სტრიქონი, რომელშიც სიტყვები გამოყოფილია მძიმეთი, და გაყავით სტრიქონი შესაბამის ნაწილებად (მიუთითეთ split() მეთოდზე).
-let text = "georgia";
-let result2 = split("");
-console.log(result2);
+// let text = "java,script";
+// let result2 = text.split("");
+// console.log(result2);
 // დავალება 8: სტრიქონის დასაწყისი
 // შეამოწმეთ, იწყება თუ არა სტრიქონი სიტყვით "Java".
+
+// let text = "javascript";
+// let result2 = text.startsWith("java");
+// console.log(result2);
 
 // დავალება 9: სტრიქონის ბოლოს
 // შეამოწმეთ, მთავრდება თუ არა სტრიქონი სიტყვით "Script".
 
+// let text = "javascript";
+// let result2 = text.endsWith("script");
+// console.log(result2);
+
 // დავალება 10: სტრიქონის გამეორება
 // შეიტანეთ სტრიქონი და გამეორეთ ის 4-ჯერ.
+
+// let text = "javascript";
+// let result2 = text.repeat(4);
+// console.log(result2);
 
 // დავალება 11: სტრიქონის ცარიელი სივრცეების მოცილება
 // შეიტანეთ სტრიქონი, რომელშიც იქნება ცარიელი ადგილები დასაწყისსა და ბოლოში. წაშალეთ ეს ცარიელი ადგილები.
 
+// let text = "     TECHNOLOGY      ";
+// let result2 = text.trim();
+// console.log(result2);
+
 // დავალება 12: სტრიქონის გამოყოფა
 // შეიტანეთ სტრიქონი და შეამოწმეთ, თუ შეიცავს თუ არა ის სიტყვას "JavaScript".
+// let text = "javascript is programming languadze";
+// let result2 = text.includes("javascript");
+// console.log(result2);
