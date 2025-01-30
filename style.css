@@ -1,0 +1,12 @@
+.size {
+  width: 700px;
+  height: 500px;
+  background-color: blueviolet;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
