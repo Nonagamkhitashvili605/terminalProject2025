@@ -200,3 +200,26 @@
 // let text = "javascript is programming languadze";
 // let result2 = text.includes("javascript");
 // console.log(result2);
+
+// let age = prompt("დაწერეთ ასაკი");
+// console.log(typeof age);
+
+// let age = Number(prompt("დაწერეთ ასაკი"));
+// console.log(age);
+
+// let fullname = prompt("დაწერეთ სახელი");
+// let result = fullname.trim();
+// console.log(result);
+
+// let fullname = prompt("დაწერეთ სახელი");
+// let result = fullname.toUpperCase();
+// console.log(result);
+
+// let fullname = prompt("დაწერეთ სახელი");
+// let result = fullname.toLowerCase();
+// console.log(result);
+
+let fullname = prompt("დაწერეთ სახელი");
+let result =
+  fullname.charAt(0).toUpperCase() + fullname.slice(1).toLocaleLowerCase();
+console.log(result);
