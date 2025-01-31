@@ -243,6 +243,5 @@ let school = {
 };
 
 // console.log(school.principal["name"], school.principal["age"]);
-console.log(
-  `${school.principal["name"]}is director, he is ${school.principal["age"]}`
-);
+console.log(`${school.principal["name"]}is director, he is ${school.principal["age"]}
+), ჩემი საყვარელი საგანია ${school.subjects[0]}  და ${school.subjects[1]}`);
