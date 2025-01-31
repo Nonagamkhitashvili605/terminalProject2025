@@ -201,6 +201,8 @@
 // let result2 = text.includes("javascript");
 // console.log(result2);
 
+//31 january 2025/
+//prompt method//
 // let age = prompt("დაწერეთ ასაკი");
 // console.log(typeof age);
 
@@ -219,7 +221,28 @@
 // let result = fullname.toLowerCase();
 // console.log(result);
 
-let fullname = prompt("დაწერეთ სახელი");
-let result =
-  fullname.charAt(0).toUpperCase() + fullname.slice(1).toLocaleLowerCase();
-console.log(result);
+// let fullname = prompt("დაწერეთ სახელი");
+// let result =  fullname.charAt(0).toUpperCase() + fullname.slice(1).toLocaleLowerCase();
+// console.log(result);
+
+//template literal
+// let age = Number(prompt("დაწერეთ ასაკი"));
+// console.log(`ჩემი ასაკია: ${age}`);
+
+let school = {
+  name: "greenwood High School",
+  location: "tbilisi, georgia",
+  Numberofstudents: 500,
+  hasSportsFacilities: true,
+  subjects: ["msth", "Science", "history", "geography", "literature"],
+  principal: {
+    name: "mr. john Smith",
+    age: 45,
+    contact: "John.smith@school.com",
+  },
+};
+
+// console.log(school.principal["name"], school.principal["age"]);
+console.log(
+  `${school.principal["name"]}is director, he is ${school.principal["age"]}`
+);
