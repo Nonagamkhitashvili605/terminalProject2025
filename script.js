@@ -267,7 +267,7 @@ let notebook = {
 // console.log(`კომპიუტერის რემი არის ${notebook.specifications.ram}`);
 // დინამიურად ცვლის ინფორმაციას
 
-// დავალება N1
+// დავალება N1 students
 
 // let student = {
 //   fullname: "nino",
@@ -284,7 +284,7 @@ let notebook = {
 // console.log(student.list[2]);
 // console.log(student.adress.street);
 
-//  დავალება N2
+//  დავალება N2 books
 
 // let books = {
 //   name: "zebuloni",
@@ -302,15 +302,19 @@ let notebook = {
 
 // დავალება N3 Theater tickets
 
-let theater = {
-  ticketsNumber: 5,
-  theaterName: "marjanishvili",
-  spectacle: "hamlet",
-  price: 20,
-  available: true,
-  address: "8 Kote Marjanishvili St, Tbilisi",
-  phone: "032 2 95 35 82",
-  date: "31.01.2025",
-};
-// console.log(theater.date);
-console.log(theater.phone);
+// let theater = {
+//   ticketsNumber: g3455,
+//   theaterName: "marjanishvili",
+//   spectacle: "hamlet",
+//   price: 20,
+//   available: true,
+//   address: "8 Kote Marjanishvili St, Tbilisi",
+//   phone: "032 2 95 35 82",
+//   date: "31.01.2025",
+// };
+
+//theater.price = 40;
+//theater.available = false;,
+
+// // console.log(theater.date);
+// console.log(theater.phone);
