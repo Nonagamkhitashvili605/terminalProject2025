@@ -229,19 +229,88 @@
 // let age = Number(prompt("დაწერეთ ასაკი"));
 // console.log(`ჩემი ასაკია: ${age}`);
 
-let school = {
-  name: "greenwood High School",
-  location: "tbilisi, georgia",
-  Numberofstudents: 500,
-  hasSportsFacilities: true,
-  subjects: ["msth", "Science", "history", "geography", "literature"],
-  principal: {
-    name: "mr. john Smith",
-    age: 45,
-    contact: "John.smith@school.com",
+// let school = {
+//   name: "greenwood High School",
+//   location: "tbilisi, georgia",
+//   Numberofstudents: 500,
+//   hasSportsFacilities: true,
+//   subjects: ["msth", "Science", "history", "geography", "literature"],
+//   principal: {
+//     name: "mr. john Smith",
+//     age: 45,
+//     contact: "John.smith@school.com",
+//   },
+// };
+
+// // console.log(school.principal["name"], school.principal["age"]);
+// console.log(`${school.principal["name"]}is director, he is ${school.principal["age"]}
+// ), ჩემი საყვარელი საგანია ${school.subjects[0]}  და ${school.subjects[1]}`);
+
+let notebook = {
+  specifications: {
+    processor: "intel Core i7",
+    ram: "16GB",
+    Screen: "13.3 inches, Full HD",
+    Storage: "512 gb SSD",
   },
+
+  reviews: ["Excelent laptop!", "good laptop"],
 };
 
-// console.log(school.principal["name"], school.principal["age"]);
-console.log(`${school.principal["name"]}is director, he is ${school.principal["age"]}
-), ჩემი საყვარელი საგანია ${school.subjects[0]}  და ${school.subjects[1]}`);
+// console.log(notebook.specifications.Screen);
+// console.log(notebook.reviews[1]);
+// console.log(notebook.specifications.ram);
+
+// notebook.specifications.ram = "20GB";
+// მთლიანად წაშლა
+// delete notebook.specifications.ram;
+// console.log(`კომპიუტერის რემი არის ${notebook.specifications.ram}`);
+// დინამიურად ცვლის ინფორმაციას
+
+// დავალება N1
+
+// let student = {
+//   fullname: "nino",
+//   age: 12,
+//   learn: true,
+//   list: ["math", "science", "literature", "technology"],
+//   adress: {
+//     city: "gori",
+//     street: "mirza gelovani",
+//   },
+// };
+
+// console.log(student.age);
+// console.log(student.list[2]);
+// console.log(student.adress.street);
+
+//  დავალება N2
+
+// let books = {
+//   name: "zebuloni",
+//   location: "centraluri biblioteka",
+//   autor: "jemal qarchkhadze",
+//   price: 50,
+//   avilable: true,
+//   Array: ["Fantasy", "Mystery", "Thriller", "Romance", "istorical Fiction"],
+//   contact: "j.qarchkhadze@gmil.com",
+// };
+
+// // console.log(books.location);
+// // console.log(books.Array[4]);
+// console.log(books.avilable);
+
+// დავალება N3 Theater tickets
+
+let theater = {
+  ticketsNumber: 5,
+  theaterName: "marjanishvili",
+  spectacle: "hamlet",
+  price: 20,
+  available: true,
+  address: "8 Kote Marjanishvili St, Tbilisi",
+  phone: "032 2 95 35 82",
+  date: "31.01.2025",
+};
+// console.log(theater.date);
+console.log(theater.phone);
