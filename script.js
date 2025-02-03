@@ -246,16 +246,16 @@
 // console.log(`${school.principal["name"]}is director, he is ${school.principal["age"]}
 // ), ჩემი საყვარელი საგანია ${school.subjects[0]}  და ${school.subjects[1]}`);
 
-let notebook = {
-  specifications: {
-    processor: "intel Core i7",
-    ram: "16GB",
-    Screen: "13.3 inches, Full HD",
-    Storage: "512 gb SSD",
-  },
+// let notebook = {
+//   specifications: {
+//     processor: "intel Core i7",
+//     ram: "16GB",
+//     Screen: "13.3 inches, Full HD",
+//     Storage: "512 gb SSD",
+//   },
 
-  reviews: ["Excelent laptop!", "good laptop"],
-};
+//   reviews: ["Excelent laptop!", "good laptop"],
+// };
 
 // console.log(notebook.specifications.Screen);
 // console.log(notebook.reviews[1]);
@@ -313,8 +313,73 @@ let notebook = {
 //   date: "31.01.2025",
 // };
 
-//theater.price = 40;
-//theater.available = false;,
+// theater.price = 40;
+// theater.available = false;
+// console.log(theater.price);
+// console.log(theater.available);
 
-// // console.log(theater.date);
+//console.log(theater.date);
 // console.log(theater.phone);
+
+//ციკლი - loop - 03 თებერვალი 2025
+
+// for (let i = 0; i < 5; i++) {
+//   console.log("hello");
+// }
+
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+// }
+
+// for (let i = 10; i > 0; i--) {
+//   console.log("bye");
+// }
+
+//
+// let array = [1, 2, 3, 4, 5, 6, 7, 8];
+// for (let i = 0; i < 8; i++) {
+//   console.log(array[i]);
+// }
+
+// let array = [1, 2, 3, 4, 5];
+// for (let i = 0; i < array.length; i++) {
+//   console.log(array[i]);
+// }
+
+//if/else
+
+// let x = 5;
+// if (x > 4) {
+//   console.log("right");
+// } else {
+//   console.log("wrong");
+// }
+
+// let x = 3;
+// if (x > 4) {
+//   console.log("right");
+// } else if (x < 7) {
+//   console.log("right1");
+// } else {
+//   console.log("wrong");
+// }
+
+// let score = 120;
+// if (score >= 90 && score <= 100) {
+//   console.log("A");
+// } else if (score >= 80 && score <= 89) {
+//   console.log("B");
+// } else if (score >= 70 && score <= 79) {
+//   console.log("C");
+// } else if (score > 100) {
+//   console.log("score is more than 100");
+// } else {
+//   console.log("fail");
+// }
+
+let array = [2, 4, 6, 8, 34, 23, 45, 66, 88];
+for (let i = 0; i < array.length; i++) {
+  if (array[i] % 2 == 1) {
+    console.log(array[i]);
+  }
+}
