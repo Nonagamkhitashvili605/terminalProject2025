@@ -429,11 +429,56 @@
 //   console.log("სამუშაო დღე");
 // }
 //მეორე ვარიანტი
-let day = 8;
-if (day >= 1 && day <= 5) {
-  console.log("work");
-} else if (day === 6 || day === 7) {
-  console.log("not work");
-} else {
-  console.log("it is not right number");
+// let day = 3;
+// if (day >= 1 && day <= 5) {
+//   console.log("work");
+// } else if (day === 6 || day === 7) {
+//   console.log("not work");
+// } else {
+//   console.log("it is not right number");
+// }
+
+//ახალი მასალა
+
+// let age = 12;
+// if (age > 18) {
+//   console.log("can drink wine");
+// } else {
+//   console.log("can drink water");
+// }
+
+// ternary
+// let age = 18;
+// if (age > 18) {
+//   console.log("wine");
+// } else {
+//   console.log(" water");
+// }
+// let result = age > 18 ? "wine" : "water";
+// console.log(result);
+
+// let number = [1, 2, 3, 4, 5]
+// // for (let i = 0; i <= 4; i++) {
+// //   console.log (number) [i];
+// // }
+// for (let item of Number) {
+//   console.log(item);
+// }
+
+//function
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// let result = sum(3234, 5456);
+// let result2 = sum(2555, 4555);
+// console.log(result);
+
+function calcDay(day) {
+  if (day % 7 === 0 || day % 7 === 6) {
+    console.log("უქმე");
+  } else {
+    console.log("სამუშაო დღე");
+  }
 }
+calcDay(2);
