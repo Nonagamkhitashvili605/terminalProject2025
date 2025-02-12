@@ -523,7 +523,6 @@
 
 // function greet(fullname){
 //   return "hello  ${fullname}"
-// }
 // let result = greet("Teona");
 // console.log(result);
 
@@ -533,3 +532,38 @@
 
 // let result = greet("Teona");
 // console.log(result);
+
+//   10               february           task
+//1 ფუნქცია, რომელიც აბრუნებს მაქსიმალურ რიცხვს
+
+// function MaxNumber(...num) {
+//   let max = 0;
+//   for (item of num) {
+//     if (item > max) {
+//       max = item;
+//     }
+//   }
+//   return max;
+// }
+// let result = MaxNumber(3, 45, 1004, 67, 89, 2, 567, 987);
+// console.log(result);
+
+// ფუნქცია, რომელიც აბრუნებს მასივს მოცემულ დიაპაზონში
+// function Range(start, end) {
+//   let RangeArray = [];
+//   for (let i = 50; i <= 60; i++) {
+//     RangeArray.push(i);
+//   }
+//   return RangeArray;
+// }
+// let result = Range(50, 60);
+// console.log(result);
+
+// ფუნქცია, რომელიც იღებს რამდენიმე სახელს და ყველას მიესალმება
+// function greet(...fullname) {
+//   return `გამარჯობა, ${fullname}`;
+// }
+// let result = greet("Teo", "ana", "gio", "rati");
+// console.log(result);
+
+//       12              february
