@@ -474,11 +474,62 @@
 // let result2 = sum(2555, 4555);
 // console.log(result);
 
-function calcDay(day) {
-  if (day % 7 === 0 || day % 7 === 6) {
-    console.log("უქმე");
-  } else {
-    console.log("სამუშაო დღე");
-  }
-}
-calcDay(2);
+// function calcDay(day) {
+//   if (day % 7 === 0 || day % 7 === 6) {
+//     console.log("უქმე");
+//   } else {
+//     console.log("სამუშაო დღე");
+//   }
+// }
+// calcDay(2);
+
+// for (let item of Array) {
+//   if (item % 2 === 0) {
+//     console.log(item);
+//   }
+// }
+
+// function greet(fullname) {
+//   return "hello ${fullname}";
+// }
+// let result = greet("teona");
+// console.log(result);
+
+// const greet = function (fullname) {
+//   return "hello ${fullname}"
+// };
+// let result = greet("teona");
+// console.log(result);
+
+// greet("teona");
+
+// function greet(fullname) {
+//   console.log;
+// }
+// 5 თებერვლის დავალება
+// let array = [2, 4, 6, 8, 23, 34, 45, 66, 88];
+
+// for (let item of Array) {
+//   if (item % 2 == 1) {
+//     console.log(item);
+//   }
+// }
+
+// function greet(fullname) {
+//   console.log("hello  ${fullname}");
+// }
+// const greetResult = greet("Teona");
+// console.log(greetResult);
+
+// function greet(fullname){
+//   return "hello  ${fullname}"
+// }
+// let result = greet("Teona");
+// console.log(result);
+
+// const greet = function (fullname) {
+//   return `hello ${fullname}`;
+// };
+
+// let result = greet("Teona");
+// console.log(result);
